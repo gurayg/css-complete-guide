@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+}
+
+
+
+h1{
+    font-family: sans-serif;
+    color: blue;
+}
+
+code {
+    /* font-size: 26px; */
+    font-family: monospace;
+    color:red;
+}
+
+.second-li code{
+    color:green;
+}
+
+li + li{
+    background: rgb(90, 0, 0);
+    color:white;
+}
+
+/* li ~ li{
+    background: rgb(90, 0, 0);
+    color:white;
+} */
+
+/* li:not(:first-of-type){
+    background: black;
+    color:white;
+} */
+
+ol li {
+    background: black;
+    color:white;
+}
